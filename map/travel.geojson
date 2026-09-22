@@ -201,7 +201,8 @@
           {{ partial $rp "Kazakhstan-SteppeMangystau-Ayrakty" }},
           {{ partial $rp "Kazakhstan-SteppeMangystau-Tuzbair" }},
           {{ partial $rp "Kazakhstan-SteppeMangystau-Ybykty" }},
-          {{ partial $rp "Kazakhstan-Aktau-Hostel" }}
+          {{ partial $rp "Kazakhstan-Aktau-Hostel" }},
+          {{ partial $rp "Kazakhstan-Beynew-Hotel" }}
         ]
       }
     },
@@ -440,6 +441,11 @@
       "type": "Feature",
       "properties": { "kind": "stop", "group": "stop", "city": "Aktau" },
       "geometry": { "type": "Point", "coordinates": {{ partial $rp "Kazakhstan-Aktau-Hostel" }} }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Beynew" },
+      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Kazakhstan-Beynew-Hotel" }} }
     }
   ]
 }

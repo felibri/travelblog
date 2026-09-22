@@ -5,6 +5,18 @@
     "type": "Feature",
     "properties": {
       "kind": "article",
+      "title": "Wann sind wir endlich da?",
+      "url": "/posts/kazakhstan/2026-07-15_beyneu/"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [55.189218,45.320678]
+    }
+  },
+        {
+    "type": "Feature",
+    "properties": {
+      "kind": "article",
       "title": "Mangystau",
       "url": "/posts/kazakhstan/2026-07-12_mangystau/"
     },

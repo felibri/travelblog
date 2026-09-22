@@ -199,7 +199,8 @@
           [52.080553,44.257575],
           [53.158841,44.039175],
           [51.723052,43.933837],
-          [51.170778,43.638561]
+          [51.170778,43.638561],
+          [55.189218,45.320678]
         ]
       }
     },{
@@ -436,6 +437,11 @@
       "type": "Feature",
       "properties": { "kind": "stop", "group": "stop", "city": "Aktau" },
       "geometry": { "type": "Point", "coordinates": [51.170778,43.638561] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Beynew" },
+      "geometry": { "type": "Point", "coordinates": [55.189218,45.320678] }
     }
   ]
 }
