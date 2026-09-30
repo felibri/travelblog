@@ -202,7 +202,11 @@
           {{ partial $rp "Kazakhstan-SteppeMangystau-Tuzbair" }},
           {{ partial $rp "Kazakhstan-SteppeMangystau-Ybykty" }},
           {{ partial $rp "Kazakhstan-Aktau-Hostel" }},
-          {{ partial $rp "Kazakhstan-Beynew-Hotel" }}
+          {{ partial $rp "Kazakhstan-Beynew-Hotel" }},
+          {{ partial $rp "Uzbekistan-Khiva-AirBnB" }},
+          {{ partial $rp "Uzbekistan-Buchara-Hotel" }},
+          {{ partial $rp "Uzbekistan-Samarkand-Herberge" }},
+          {{ partial $rp "Uzbekistan-Tashkent-CS_Akmal" }}
         ]
       }
     },
@@ -446,6 +450,26 @@
       "type": "Feature",
       "properties": { "kind": "stop", "group": "stop", "city": "Beynew" },
       "geometry": { "type": "Point", "coordinates": {{ partial $rp "Kazakhstan-Beynew-Hotel" }} }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Khiva" },
+      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Uzbekistan-Khiva-AirBnB" }} }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Buchara" },
+      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Uzbekistan-Buchara-Hotel" }} }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Samarkand" },
+      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Uzbekistan-Samarkand-Herberge" }} }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Tashkent" },
+      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Uzbekistan-Tashkent-CS_Akmal" }} }
     }
   ]
 }

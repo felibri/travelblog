@@ -4,70 +4,46 @@ Switzerland:
       lat: 46.52476259561158
       lon: 6.624439688499363
       jitter: true
-      stays:
-        - from: 2020-10-01
-          to: 2025-10-01
-          type: home
+
 Germany:
   Deisendorf:
     Home:
       lat: 47.771010
       lon: 9.215322
       jitter: true
-      stays:
-        - from: 2025-10-01
-          to: 2025-10-15
-          type: home
+
   Mannheim:
     Nick:
       lat: 49.488559448998664
       lon: 8.473277060783197
       jitter: true
-      stays:
-        - from: 2025-10-15
-          to: 2025-10-16
-          type: visit
+
 Belgium:
   Brussels:
     CS_Barbara:
       lat: 50.80126082304624
       lon: 4.396910557727769
       jitter: true
-      stays:
-        - from: 2025-10-16
-          to: 2025-10-17
-          type: visit
+
 Marocco:
   Casablanca:
     Airport:
       lat: 33.370378866408345
       lon: -7.582874310554968
       jitter: false
-      stays:
-        - from: 2025-10-18
-          to: 2025-10-18
-          type: transit
+
 Cameroon:
   Douala:
     Airport:
       lat: 4.013085409075031
       lon: 9.717232604049611
       jitter: false
-      stays:
-        - from: 2025-10-18
-          to: 2025-10-18
-          type: transit
-        - from: 2026-01-13
-          to: 2026-01-14
-          type: transit
+
     Hotel:
       lat: 4.043770
       lon: 9.711522
       jitter: false
-      stays:
-        - from: 2026-01-05
-          to: 2026-01-13
-          type: visit
+
   Bafang:
     Familie_Sandrine:
       lat: 5.161997473467246
@@ -291,6 +267,20 @@ Kazakhstan:
       lat: 45.320678
       lon: 55.189218
       jitter: false
+  Almaty:
+    AirBnB:
+      lat: 43.273188
+      lon: 76.945605
+      jitter: false
+    AirBnB2:
+      lat: 43.26348
+      lon: 76.8222
+      jitter: false
+  Karabulak:
+    Herberge:
+      lat: 43.076292
+      lon: 78.536651
+      jitter: false
 Uzbekistan:
   Khiva:
     AirBnB:
@@ -302,4 +292,118 @@ Uzbekistan:
       lat: 39.779835
       lon: 64.41879
       jitter: false
-
+  Samarkand:
+    Herberge:
+      lat: 39.647215
+      lon: 66.936918
+      jitter: false
+  Tashkent:
+    CS_Akmal:
+      lat: 41.276005
+      lon: 69.387569
+      jitter: false
+Kirgistan:
+  Karakol:
+    AirBnB:
+      lat: 42.502724
+      lon: 78.398018
+      jitter: false
+  Issuk_Kul:
+    Camping1:
+      lat: 42.179798
+      lon: 77.420251
+      jitter: false
+    Camping2:
+      lat: 42.21266
+      lon: 76.837511
+      jitter: false
+  Bischkek:
+    AirBnB:
+      lat: 42.836701
+      lon: 74.639996
+      jitter: false
+  Torkent:
+    Herberge:
+      lat: 41.850114
+      lon: 73.151693
+      jitter: false
+  Arstanbap:
+    Camping:
+      lat: 41.370758
+      lon: 72.935344
+      jitter: false
+  Osch:
+    Hotel:
+      lat: 40.513491
+      lon: 72.813527
+      jitter: false
+Tadjikistan:
+  Khujand:
+    Hostel:
+      lat: 40.278753
+      lon: 69.636467
+      jitter: false
+  Iskanderkul:
+    Camping:
+      lat: 39.06491
+      lon: 68.356239
+      jitter: false
+  Duschanbe:
+    Hostel:
+      lat: 38.594691
+      lon: 68.790494
+      jitter: false
+  Parmir_Highway:
+    Camping1:
+      lat: 37.830776
+      lon: 70.19064
+      jitter: false
+    Camping2:
+      lat: 37.765807
+      lon: 71.533229
+      jitter: false
+  Murghab:
+    Herberge:
+      lat: 38.177881
+      lon: 73.971877
+      jitter: false
+China:
+  Kaschgar:
+    Hotel1:
+      lat: 39.446493
+      lon: 76.018506
+      jitter: false
+    Hotel2:
+      lat: 39.493323
+      lon: 76.040547
+      jitter: false
+  Urumqi:
+    Hotel:
+      lat: 43.87516
+      lon: 87.554144
+      jitter: false
+  XiAn:
+    Hotel:
+      lat: 34.28271
+      lon: 109.056513
+      jitter: false
+  Hangzhou:
+    Hotel:
+      lat: 30.280264
+      lon: 120.120351
+      jitter: false
+Taiwan:
+  Meishi:
+    Herberge:
+      lat: 26.146929
+      lon: 119.937664
+      jitter: false
+  Taipei:
+    AirBnB:
+      lat: 25.04453
+      lon: 121.573977
+      jitter: false
+    Home:
+      lat: 25.026133
+      lon: 121.493597
+      jitter: true
