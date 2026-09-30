@@ -200,7 +200,11 @@
           [53.158841,44.039175],
           [51.723052,43.933837],
           [51.170778,43.638561],
-          [55.189218,45.320678]
+          [55.189218,45.320678],
+          [60.373303,41.376255],
+          [64.41879,39.779835],
+          [66.936918,39.647215],
+          [69.387569,41.276005]
         ]
       }
     },{
@@ -442,6 +446,26 @@
       "type": "Feature",
       "properties": { "kind": "stop", "group": "stop", "city": "Beynew" },
       "geometry": { "type": "Point", "coordinates": [55.189218,45.320678] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Khiva" },
+      "geometry": { "type": "Point", "coordinates": [60.373303,41.376255] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Buchara" },
+      "geometry": { "type": "Point", "coordinates": [64.41879,39.779835] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Samarkand" },
+      "geometry": { "type": "Point", "coordinates": [66.936918,39.647215] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Tashkent" },
+      "geometry": { "type": "Point", "coordinates": [69.387569,41.276005] }
     }
   ]
 }

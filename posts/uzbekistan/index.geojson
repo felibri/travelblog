@@ -1,0 +1,12 @@
+{
+    "type": "Feature",
+    "properties": {
+      "kind": "article",
+      "title": "Auf den Spuren der usbekischen Seidenstraße",
+      "url": "/posts/uzbekistan/"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [64.41879,39.779835]
+    }
+  }

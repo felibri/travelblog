@@ -1,0 +1,24 @@
+{
+  "type": "FeatureCollection",
+  "features": [{
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Khiva" },
+      "geometry": { "type": "Point", "coordinates": [60.373303,41.376255] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Buchara" },
+      "geometry": { "type": "Point", "coordinates": [64.41879,39.779835] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Samarkand" },
+      "geometry": { "type": "Point", "coordinates": [66.936918,39.647215] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Tashkent" },
+      "geometry": { "type": "Point", "coordinates": [69.387569,41.276005] }
+    }
+  ]
+}
