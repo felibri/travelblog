@@ -4,41 +4,54 @@
 {{/* find all img tags */}}
 {{ range findRE `<img\s+[^>]*>` $content -}}
   {{ $imgTag := . -}}
-
   {{/* extract src attribute */}}
   {{ with findRESubmatch `src=['"]([^'"]+)['"]` $imgTag -}}
     {{ $srcAttr := index (index . 0) 0 -}}
     {{ $srcValue := index (index . 0) 1 -}}
+    {{ $srcValueFinal := $srcValue -}}
 
-    {{/* get Hugo resource */}}
     {{ $imgResource := "" -}}
     {{ if or (hasPrefix $srcValue "http://") (hasPrefix $srcValue "https://") -}}
       {{ with resources.GetRemote $srcValue -}}
         {{ $imgResource = . -}}
+        {{ $srcValueFinal = .RelPermalink -}}
       {{ end -}}
     {{ else -}}
       {{ with $.Page.Resources.GetMatch $srcValue -}}
         {{ $imgResource = . -}}
+        {{ $srcValueFinal = .RelPermalink -}}
       {{ else -}}
         {{ with resources.GetMatch $srcValue -}}
           {{ $imgResource = . -}}
+          {{ $srcValueFinal = .RelPermalink -}}
         {{ end -}}
       {{ end -}}
     {{ end -}}
 
-    {{ if $imgResource }}
-      {{/* create resized versions (no medium) */}}
-      {{ $small := $imgResource.Resize "400x" }}
-      {{ $large := $imgResource.Resize "1200x" }}
+    {{/* build responsive srcset if we have a resource */}}
+    {{ $srcsetAttr := "" -}}
+    {{ if $imgResource -}}
+      {{ $small := $imgResource.Resize "400x" -}}
+      {{ $large := $imgResource.Resize "1200x" -}}
+      {{ $srcsetAttr = printf ` srcset="%s 400w, %s 1200w, %s 2000w" sizes="(max-width: 768px) 100vw, 50vw"` $small.RelPermalink $large.RelPermalink $imgResource.RelPermalink -}}
+    {{ end -}}
 
-      {{/* build new img tag with srcset (medium removed) */}}
-      {{ $newTag := replace $imgTag $srcAttr (printf `src="%s" srcset="%s 400w, %s 1200w, %s 2000w" sizes="(max-width: 768px) 100vw, 50vw"` $small.RelPermalink $small.RelPermalink $large.RelPermalink $imgResource.RelPermalink) -}}
-
-      {{ $content = replace $content $imgTag $newTag -}}
-    {{ end }}
+    {{ $newTag := replace $imgTag $srcAttr (printf `src="%s"%s` $srcValueFinal $srcsetAttr) -}}
+    {{ $content = replace $content $imgTag $newTag -}}
   {{ end -}}
 {{ end -}}
 
+{{/* images without alternative text get an explicit empty alt so screen
+  readers skip them instead of announcing the file name */}}
+{{ range findRE `<img\s+[^>]*>` $content -}}
+  {{ $imgTag := . -}}
+  {{ if not (findRE `\salt=` $imgTag) -}}
+    {{ $newTag := replaceRE `^<img\s` `<img alt="" ` $imgTag -}}
+    {{ $content = replace $content $imgTag $newTag -}}
+  {{ end -}}
+{{ end -}}
+
+{{ if not .Parent }}<div class="width-patch"></div>{{ end }}
 <div id="{{- $id -}}" class="gallery">
   {{ $content | safeHTML -}}
 </div>
