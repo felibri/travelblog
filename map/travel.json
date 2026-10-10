@@ -204,7 +204,17 @@
           [60.373303,41.376255],
           [64.41879,39.779835],
           [66.936918,39.647215],
-          [69.387569,41.276005]
+          [69.387569,41.276005],
+          [69.631,42.359],
+          [71.543,43.029],
+          [73.787,43.642],
+          [76.945605,43.273188],
+          [78.245,43.592],
+          [78.94629,43.27546],
+          [78.536651,43.076292],
+          [78.94629,43.27546],
+          [78.245,43.592],
+          [76.8222,43.26348]
         ]
       }
     },{
@@ -466,6 +476,21 @@
       "type": "Feature",
       "properties": { "kind": "stop", "group": "stop", "city": "Tashkent" },
       "geometry": { "type": "Point", "coordinates": [69.387569,41.276005] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Almaty" },
+      "geometry": { "type": "Point", "coordinates": [76.945605,43.273188] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Karabulak" },
+      "geometry": { "type": "Point", "coordinates": [78.536651,43.076292] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Almaty" },
+      "geometry": { "type": "Point", "coordinates": [76.8222,43.26348] }
     }
   ]
 }

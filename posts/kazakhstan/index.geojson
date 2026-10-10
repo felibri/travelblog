@@ -5,6 +5,18 @@
     "type": "Feature",
     "properties": {
       "kind": "article",
+      "title": "Wiedersehen in Südostkasachstan",
+      "url": "/posts/kazakhstan/2026-08-03_almaty/"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [76.945605,43.273188]
+    }
+  },
+        {
+    "type": "Feature",
+    "properties": {
+      "kind": "article",
       "title": "Wann sind wir endlich da?",
       "url": "/posts/kazakhstan/2026-07-15_beyneu/"
     },

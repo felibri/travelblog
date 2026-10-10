@@ -206,7 +206,17 @@
           {{ partial $rp "Uzbekistan-Khiva-AirBnB" }},
           {{ partial $rp "Uzbekistan-Buchara-Hotel" }},
           {{ partial $rp "Uzbekistan-Samarkand-Herberge" }},
-          {{ partial $rp "Uzbekistan-Tashkent-CS_Akmal" }}
+          {{ partial $rp "Uzbekistan-Tashkent-CS_Akmal" }},
+          [69.631,42.359],
+          [71.543,43.029],
+          [73.787,43.642],
+          {{ partial $rp "Kazakhstan-Almaty-AirBnB" }},
+          [78.245,43.592],
+          [78.94629,43.27546],
+          {{ partial $rp "Kazakhstan-Karabulak-Herberge" }},
+          [78.94629,43.27546],
+          [78.245,43.592],
+          {{ partial $rp "Kazakhstan-Almaty-AirBnB2" }}
         ]
       }
     },
@@ -470,6 +480,21 @@
       "type": "Feature",
       "properties": { "kind": "stop", "group": "stop", "city": "Tashkent" },
       "geometry": { "type": "Point", "coordinates": {{ partial $rp "Uzbekistan-Tashkent-CS_Akmal" }} }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Almaty" },
+      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Kazakhstan-Almaty-AirBnB" }} }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Karabulak" },
+      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Kazakhstan-Karabulak-Herberge" }} }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Almaty" },
+      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Kazakhstan-Almaty-AirBnB2" }} }
     }
   ]
 }
