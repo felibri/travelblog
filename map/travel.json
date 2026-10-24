@@ -214,7 +214,17 @@
           [78.536651,43.076292],
           [78.94629,43.27546],
           [78.245,43.592],
-          [76.8222,43.26348]
+          [76.8222,43.26348],
+          [78.245,43.592],
+          [78.94629,43.27546],
+          [78.398018,42.502724],
+          [77.420251,42.179798],
+          [76.837511,42.21266],
+          [75.87321,42.29547],
+          [74.639996,42.836701],
+          [73.151693,41.850114],
+          [72.935344,41.370758],
+          [72.813527,40.513491]
         ]
       }
     },{
@@ -491,6 +501,41 @@
       "type": "Feature",
       "properties": { "kind": "stop", "group": "stop", "city": "Almaty" },
       "geometry": { "type": "Point", "coordinates": [76.8222,43.26348] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Karakol" },
+      "geometry": { "type": "Point", "coordinates": [78.398018,42.502724] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Issuk_Kul" },
+      "geometry": { "type": "Point", "coordinates": [77.420251,42.179798] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Issuk_Kul" },
+      "geometry": { "type": "Point", "coordinates": [76.837511,42.21266] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Bischkek" },
+      "geometry": { "type": "Point", "coordinates": [74.639996,42.836701] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Torkent" },
+      "geometry": { "type": "Point", "coordinates": [73.151693,41.850114] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Arstanbap" },
+      "geometry": { "type": "Point", "coordinates": [72.935344,41.370758] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Osch" },
+      "geometry": { "type": "Point", "coordinates": [72.813527,40.513491] }
     }
   ]
 }
