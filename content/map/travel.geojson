@@ -216,7 +216,17 @@
           {{ partial $rp "Kazakhstan-Karabulak-Herberge" }},
           [78.94629,43.27546],
           [78.245,43.592],
-          {{ partial $rp "Kazakhstan-Almaty-AirBnB2" }}
+          {{ partial $rp "Kazakhstan-Almaty-AirBnB2" }},
+          [78.245,43.592],
+          [78.94629,43.27546],
+          {{ partial $rp "Kirgistan-Karakol-AirBnB" }},
+          {{ partial $rp "Kirgistan-Issuk_Kul-Camping1" }},
+          {{ partial $rp "Kirgistan-Issuk_Kul-Camping2" }},
+          [75.87321,42.29547],
+          {{ partial $rp "Kirgistan-Bischkek-AirBnB" }},
+          {{ partial $rp "Kirgistan-Torkent-Herberge" }},
+          {{ partial $rp "Kirgistan-Arstanbap-Camping" }},
+          {{ partial $rp "Kirgistan-Osch-Hotel" }}
         ]
       }
     },
@@ -495,6 +505,41 @@
       "type": "Feature",
       "properties": { "kind": "stop", "group": "stop", "city": "Almaty" },
       "geometry": { "type": "Point", "coordinates": {{ partial $rp "Kazakhstan-Almaty-AirBnB2" }} }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Karakol" },
+      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Kirgistan-Karakol-AirBnB" }} }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Issuk_Kul" },
+      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Kirgistan-Issuk_Kul-Camping1" }} }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Issuk_Kul" },
+      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Kirgistan-Issuk_Kul-Camping2" }} }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Bischkek" },
+      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Kirgistan-Bischkek-AirBnB" }} }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Torkent" },
+      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Kirgistan-Torkent-Herberge" }} }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Arstanbap" },
+      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Kirgistan-Arstanbap-Camping" }} }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Osch" },
+      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Kirgistan-Osch-Hotel" }} }
     }
   ]
 }
