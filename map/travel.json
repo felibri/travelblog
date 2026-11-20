@@ -224,7 +224,17 @@
           [74.639996,42.836701],
           [73.151693,41.850114],
           [72.935344,41.370758],
-          [72.813527,40.513491]
+          [72.813527,40.513491],
+          [70.731558, 40.112690],
+          [69.636467,40.278753],
+          [68.356239,39.06491],
+          [68.790494,38.594691],
+          [70.19064,37.830776],
+          [70.67333,38.40484],
+          [70.98803,38.49198],
+          [71.3689,38.2654],
+          [71.533229,37.765807],
+          [73.971877,38.177881]
         ]
       }
     },{
@@ -536,6 +546,36 @@
       "type": "Feature",
       "properties": { "kind": "stop", "group": "stop", "city": "Osch" },
       "geometry": { "type": "Point", "coordinates": [72.813527,40.513491] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Khujand" },
+      "geometry": { "type": "Point", "coordinates": [69.636467,40.278753] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Iskanderkul" },
+      "geometry": { "type": "Point", "coordinates": [68.356239,39.06491] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Duschanbe" },
+      "geometry": { "type": "Point", "coordinates": [68.790494,38.594691] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Parmir_Highway" },
+      "geometry": { "type": "Point", "coordinates": [70.19064,37.830776] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Parmir_Highway" },
+      "geometry": { "type": "Point", "coordinates": [71.533229,37.765807] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Murghab" },
+      "geometry": { "type": "Point", "coordinates": [73.971877,38.177881] }
     }
   ]
 }

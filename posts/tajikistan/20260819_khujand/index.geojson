@@ -1,0 +1,12 @@
+{
+    "type": "Feature",
+    "properties": {
+      "kind": "article",
+      "title": "Tadschikistan - Achterbahn",
+      "url": "/posts/tajikistan/20260819_khujand/"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [69.636467,40.278753]
+    }
+  }
