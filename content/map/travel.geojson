@@ -226,7 +226,17 @@
           {{ partial $rp "Kirgistan-Bischkek-AirBnB" }},
           {{ partial $rp "Kirgistan-Torkent-Herberge" }},
           {{ partial $rp "Kirgistan-Arstanbap-Camping" }},
-          {{ partial $rp "Kirgistan-Osch-Hotel" }}
+          {{ partial $rp "Kirgistan-Osch-Hotel" }},
+          [70.731558, 40.112690],
+          {{ partial $rp "Tajikistan-Khujand-Hostel" }},
+          {{ partial $rp "Tajikistan-Iskanderkul-Camping" }},
+          {{ partial $rp "Tajikistan-Duschanbe-Hostel" }},
+          {{ partial $rp "Tajikistan-Parmir_Highway-Camping1" }},
+          [70.67333,38.40484],
+          [70.98803,38.49198],
+          [71.3689,38.2654],
+          {{ partial $rp "Tajikistan-Parmir_Highway-Camping2" }},
+          {{ partial $rp "Tajikistan-Murghab-Herberge" }}
         ]
       }
     },
@@ -540,6 +550,36 @@
       "type": "Feature",
       "properties": { "kind": "stop", "group": "stop", "city": "Osch" },
       "geometry": { "type": "Point", "coordinates": {{ partial $rp "Kirgistan-Osch-Hotel" }} }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Khujand" },
+      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Tajikistan-Khujand-Hostel" }} }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Iskanderkul" },
+      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Tajikistan-Iskanderkul-Camping" }} }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Duschanbe" },
+      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Tajikistan-Duschanbe-Hostel" }} }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Parmir_Highway" },
+      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Tajikistan-Parmir_Highway-Camping1" }} }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Parmir_Highway" },
+      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Tajikistan-Parmir_Highway-Camping2" }} }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Murghab" },
+      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Tajikistan-Murghab-Herberge" }} }
     }
   ]
 }
